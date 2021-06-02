@@ -1,31 +1,45 @@
-import React from 'react'
-import S from "./navbar.module.scss"
+import React from "react";
+import Link from "next/link";
+import ActiveLink from "../active-link/ActiveLink"
+import S from "./navbar.module.scss";
 
 function Navbar() {
-    return (
-        <div className={S.div}>
-            <ul>
-                <li className={S.li}>
-                    Home
-                </li>
-                <li className={S.li}>
-                    About me
-                </li>
-                <li className={S.li}>
-                    Resume
-                </li>
-                <li className={S.li}>
-                    Skills
-                </li>
-                <li className={S.li}>
-                    Portfolio
-                </li>
-                <li className={S.li}>
-                    Contact
-                </li>
-            </ul>
-        </div>
-    )
+  return (
+    <div className={S.div}>
+      <ul>
+        <li className={S.li} actviceClassName={S}>
+          <ActiveLink href="/">
+            <a>Home</a>
+          </ActiveLink>
+        </li>
+        <li className={S.li}>
+          <ActiveLink href="/about">
+            <a>About me</a>
+          </ActiveLink>
+        </li>
+        <li className={S.li}>
+          <Link href="/resume">
+            <a>Resume</a>
+          </Link>
+        </li>
+        <li className={S.li}>
+          <Link href="/skills">
+            <a>Skills</a>
+          </Link>
+        </li>
+        <li className={S.li}>
+          <Link href="/portfolio">
+            <a>Portfolio</a>
+          </Link>
+        </li>
+        <li className={S.li}>
+          <Link href="/contact">
+            <a>Contact</a>
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;

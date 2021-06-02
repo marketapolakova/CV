@@ -1,9 +1,9 @@
-import Box from "../components/box/Box"
+import AboutMe from "../components/about-me/AboutMe"
 
 export default function About() {
     return (
       <div>
-        <Box/>
+        <AboutMe/>
       </div>
     )
   }
