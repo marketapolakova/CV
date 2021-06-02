@@ -1,0 +1,25 @@
+.h1{
+    font-size: 5rem;
+    text-align: center;
+    margin: 5rem;
+    font-weight: 400;
+
+}
+.container{
+display: grid;
+grid-template-columns: repeat(2, auto) ;
+background-color: white;
+margin: 0 2rem;
+width: 10rem;
+}
+.item{
+  width: 70rem;
+  margin: 5rem 2rem;
+  font-size: 2.8rem;
+}
+.img{
+    background-image: url(../../images/marketa.JPG);
+    background-size: cover;
+    height: 30rem;
+    width: 30rem;
+}

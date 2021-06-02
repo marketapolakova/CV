@@ -1,0 +1,21 @@
+.div{
+float: right;
+background-color: black;
+color: white;
+width: 21.5rem;
+height: 100vh;
+}
+.li {
+
+    font: normal normal normal 2.5rem/4rem Josefin Sans;
+    color: #FFFFFF;
+    list-style: none;
+    text-align: center;
+    padding: 3rem 5rem;
+    border-bottom: solid .1rem #707070;
+    &:last-child{
+        border-bottom: 0;
+    }
+}
+
+
