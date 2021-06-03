@@ -7,7 +7,7 @@ function Portfolioo() {
         <div className={S.div}>
         <Navbar />
         <div className={S.box}>
-
+        <h1 className={S.h1}>Portfolio</h1>
         </div>
       </div>
         </div>

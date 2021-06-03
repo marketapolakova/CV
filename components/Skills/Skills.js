@@ -7,7 +7,7 @@ function Skils() {
         <div className={S.div}>
         <Navbar />
         <div className={S.box}>
-
+        <h1 className={S.h1}>Skills</h1>
         </div>
       </div>
         </div>
