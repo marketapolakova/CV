@@ -60,7 +60,7 @@ function Resumee() {
           June 1, 2021 <br />
           Udemy <br />
           <Link href="https://www.udemy.com/certificate/UC-447fb2a8-5603-441a-84ab-129cf58c0abe/">
-            <a>Credential</a>
+            <a target="_blank">Credential</a>
           </Link>
           </p>
           

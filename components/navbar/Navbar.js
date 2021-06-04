@@ -7,36 +7,56 @@ function Navbar() {
   return (
     <div className={S.div}>
       <ul>
-        <li className={S.li} actviceClassName={S}>
-          <ActiveLink href="/">
+        <ActiveLink activeClassName={S.active} href="/">
+        <li className={S.li}>
+          
             <a>Home</a>
-          </ActiveLink>
+         
         </li>
+         </ActiveLink>
+
+
+        <ActiveLink activeClassName={S.active} href="/about">
         <li className={S.li}>
-          <ActiveLink href="/about">
+          
             <a>About me</a>
-          </ActiveLink>
+          
         </li>
+</ActiveLink>
+
+
+        
+        <ActiveLink activeClassName={S.active} href="/resume">
         <li className={S.li}>
-          <Link href="/resume">
+          
             <a>Resume</a>
-          </Link>
+          
         </li>
-        <li className={S.li}>
-          <Link href="/skills">
+</ActiveLink>
+
+
+       <ActiveLink activeClassName={S.active} href="/skills">
+           <li className={S.li}>
+          
             <a>Skills</a>
-          </Link>
+         
         </li>
+         </ActiveLink>
+
+        <ActiveLink activeClassName={S.active} href="/portfolio">
         <li className={S.li}>
-          <Link href="/portfolio">
-            <a>Portfolio</a>
-          </Link>
+          
+            <a className={S.a}>Portfolio</a>
         </li>
+</ActiveLink>
+
+<ActiveLink activeClassName={S.active} href="/contact">
         <li className={S.li}>
-          <Link href="/contact">
+          
             <a>Contact</a>
-          </Link>
+          
         </li>
+        </ActiveLink>
       </ul>
     </div>
   );
