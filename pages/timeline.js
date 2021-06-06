@@ -1,10 +1,12 @@
 
-import Timeline from "../components/timeline/LineThree"
+import Timeline from "../components/progressbar/Progressbar"
 
 export default function Resume() {
     return (
-      <div>
-        <Timeline/>
+      <div style={{textAlign: 'right', paddingRight: "3rem"}}>
+        <Timeline s="HTML" w="100"/>
+
+        <Timeline s="JavaScript" w="50"/>
       </div>
     )
   }
