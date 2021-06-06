@@ -14,20 +14,13 @@ function Resumee() {
         <Navbar />
         <div className={S.box}>
         <h1 className={S.h1}>Resume</h1>
+
         <div className={S.container}>
-       
-
-
           <h2 className={S.h2}>Education</h2>
           <h2 className={S.h2}>Certification</h2>
           <h2 className={S.h2}>Work experience</h2>
 <div className={S.container2}>
              
-      
-            
-     
-            
-        
          <Timeline/>
           <p className={S.p}>School of economics and tourism <br />
           Study program: Economics and tourism <br />
