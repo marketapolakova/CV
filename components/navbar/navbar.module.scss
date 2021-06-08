@@ -13,8 +13,10 @@ height: 100vh;
     text-align: center;
     padding: 3rem 5rem;
     border-bottom: solid .1rem #707070;
+    cursor: pointer;
     &:last-child{
         border-bottom: 0;
+
 
        
     }
@@ -23,7 +25,7 @@ height: 100vh;
 
 .active{
     border-left: solid .3rem white;
-    cursor: pointer;
+
     
 }
 

@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import ActiveLink from "../active-link/ActiveLink"
 import S from "./navbar.module.scss";
 
