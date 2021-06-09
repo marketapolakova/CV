@@ -22,8 +22,18 @@ a {
 body{
   font-family: 'Josefin Sans', sans-serif;
   background-image: url(../images/homepage.png);
+  height: 100vh;
   background-size: cover;
   font-weight: 300;
   box-sizing: border-box; 
+  
+}
+
+@media only screen and (max-width:768px) {
+
+  body{
+ 
+    background-image: url(../images/mobile.png);
+  }
   
 }

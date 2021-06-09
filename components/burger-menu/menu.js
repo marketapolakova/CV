@@ -1,13 +1,10 @@
 import React from "react";
 import ActiveLink from "../active-link/ActiveLink"
-import BurgerMenu from "../burger-menu/BurgerMenu"
-import S from "./navbar.module.scss";
+import S from "./burger-menu.module.scss";
 
-function Navbar() {
+const Menu = () => {
   return (
-    <div>
-      <BurgerMenu/>
-      <div className={S.div}>
+    <div className={S.div} >
       <ul>
         <ActiveLink activeClassName={S.active} href="/">
         <li className={S.li}>
@@ -53,7 +50,7 @@ function Navbar() {
 </ActiveLink>
 
 <ActiveLink activeClassName={S.active} href="/contact">
-        <li className={S.li}>
+        <li className={S.li}   >
           
             <a>Contact</a>
           
@@ -61,9 +58,7 @@ function Navbar() {
         </ActiveLink>
       </ul>
     </div>
-    </div>
-    
   );
 }
 
-export default Navbar;
+export default Menu;

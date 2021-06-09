@@ -1,12 +1,16 @@
-
-import Timeline from "../components/progressbar/Progressbar"
+import React from 'react';
+import BurgerMenu from "../components/burger-menu/BurgerMenu"
+// import Menu from "../components/burger-menu/menu"
 
 export default function Resume() {
     return (
-      <div style={{textAlign: 'right', paddingRight: "3rem"}}>
-        <Timeline s="HTML" w="100"/>
+      <div>
+        <div>
+        <BurgerMenu/>
 
-        <Timeline s="JavaScript" w="50"/>
+        </div>
+
+
       </div>
     )
   }
