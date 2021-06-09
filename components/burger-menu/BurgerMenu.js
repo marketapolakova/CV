@@ -6,7 +6,7 @@ function BurgerMenu() {
   const [open, setOpen] = useState(false);
     return (
       <div>
-        <div>
+        <div style={{overflow: 'hidden'}}>
         <Burger open={open} setOpen={setOpen}/>
         { open && <Menu /> }
         </div>

@@ -17,6 +17,7 @@ function Portfolioo() {
              <p className={S.p}>Prototype of fititious pet shelter</p>
            </div>
             </div>
+            <div className={S.mobileCart}><p className={S.p}>Prototype of fititious pet shelter</p> </div>
           </a>
 
           </Link>
@@ -26,8 +27,10 @@ function Portfolioo() {
          <div className={S.img2}>
            <div className={S.hidden}>
              <p className={S.p}>MTnetcode website</p>
+             <div className={S.mobileCart}><p className={S.p}>MTnetcode website</p> </div>
            </div>
         </div>
+        <div className={S.mobileCart}><p className={S.p}>MTnetcode website</p> </div>
           </a>
 
           </Link>

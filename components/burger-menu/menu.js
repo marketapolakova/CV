@@ -4,7 +4,8 @@ import S from "./burger-menu.module.scss";
 
 const Menu = () => {
   return (
-    <div className={S.div} >
+
+        <div className={S.div} >
       <ul>
         <ActiveLink activeClassName={S.active} href="/">
         <li className={S.li}>
@@ -58,6 +59,8 @@ const Menu = () => {
         </ActiveLink>
       </ul>
     </div>
+  
+    
   );
 }
 

@@ -4,26 +4,45 @@
 .box{
 position: absolute;
 top: 8rem;
-left: 8rem;
+left: 5%;
 
-height: 55rem;
-width: 110rem;
+height: 70vh;
+width: 74vw;
 background-color: black;
 color: white;
-
+animation: slide-in-left .5s ease-in;
 }
+
+
+
+
+@keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-1000px);
+              transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+
+//content
 .h1{
-    font-size: 5rem;
+    font-size: 7vh;
     text-align: center;
-    margin: 5rem;
+    margin: 5%;
     font-weight: 400;
 
 }
 .img{
-    margin-left: 10rem;
+    margin-left: 20%;
     background-image: url(../../images/Homepage-dogatas.jpg);
-   height: 30rem;
-   width: 40rem;
+   height: 35vh;
+   width: 30vw;
    background-size: cover;
  transition: .5s ease;
  display: inline-block;
@@ -31,8 +50,8 @@ color: white;
 }
 
  .hidden{
-    height: 30rem;
-    width: 40rem;
+    height: 30vh;
+    width: 30vw;
     padding: 30% 0;
     opacity: 0;
  }
@@ -42,7 +61,7 @@ color: white;
  }
 .p{
     color: black;
-    font-size: 3rem;
+    font-size: 3vh;
     text-align: center;
     font-weight: 500;
    
@@ -55,17 +74,96 @@ color: white;
 
 .container{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 45% 45%;
 }
 .img2{
     margin: 0 5rem ;
    
     background-image: url(../../images/mtnetcod.jpg);
-   height: 30rem;
-   width: 40rem;
+    height: 35vh;
+    width: 30vw;
    background-size: cover;
  transition: .5s ease;
  display: inline-block;
  cursor: pointer;
 
 }
+.mobileCart{
+    display: none;
+}
+
+
+@media only screen and (max-width:768px) {
+    .div{
+        position: relative;
+    }
+    .box{
+    position: static;
+
+    
+    height: 110vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+
+    
+    }
+    
+    // content
+    .h1{
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 0;
+        font-weight: 400;
+    padding-top: 6rem;
+   
+    }
+
+
+    .img{
+        
+       height: 40vh;
+       width: 95vw;
+     display: block;
+     margin-left:1rem ;
+     border: solid .5rem rgb(252, 241, 241);
+     
+    }
+    
+     .hidden{
+display: none;
+
+     }
+
+    .container{
+        display: contents;
+
+    }
+    .img2{
+        
+       
+        background-image: url(../../images/mtnetcode-mobile.png);
+       height: 40vh;
+       width: 95vw;
+       
+    
+     display: block;
+
+     margin-left: 1rem;
+     margin-top: 1rem;
+     border: solid .5rem rgb(252, 241, 241);
+    
+    }
+
+    .mobileCart{
+        display: block;
+        background-color: rgb(252, 241, 241);
+        width: 95vw;
+        margin-left: 1rem;
+        
+    }
+    .p{
+       padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+      }

@@ -7,6 +7,7 @@ const Burger = ({ open, setOpen }) => {
        <div className={S.divBurger} />
       <div  className={S.divBurger}/>
       <div  className={S.divBurger}/>
+     
    </div>
  
    
@@ -14,3 +15,4 @@ const Burger = ({ open, setOpen }) => {
 }
 
 export default Burger;
+

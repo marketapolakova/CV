@@ -1,5 +1,6 @@
 .div{
 display: none;
+
     }
 
 .container{
@@ -8,32 +9,34 @@ display: none;
 @media only screen and (max-width:768px) {
 
 .div{
-    display: block;
+   display: block;
     background-color: black;
     color: white;
-    width: 21.5rem;
+    width: 60%;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     position: absolute;
-    right: 0;
+    left: 40%;
+    animation: slide-in-right .3s ease-in backwards;
   
-    // animation: menuSlide 1s ease-in forwards;
     }
+    @keyframes slide-in-right {
+        0% {
+         width: 0;
+            opacity: 0;
+        }
+        100% {
+          width: 60vw;
+          opacity: 1;        }
+      }
+      
 
-// @keyframes menuSLide {
-//     from{
-//         transform: translateX(0);
-//     }
-//     to{
-//         transform: translateX(-200%);
-//     }
-// }
+
+      
 
     .li {
     
-        font: normal normal normal 2.5rem/4rem Josefin Sans;
+        font-size: 4vh;
+        font-weight: 400;
         color: #FFFFFF;
         list-style: none;
         text-align: center;
@@ -42,6 +45,12 @@ display: none;
         cursor: pointer;
         &:last-child{
             border-bottom: 0;
+    
+    
+           
+        }
+        &:first-child{
+           margin-top: 20%;
     
     
            
@@ -67,7 +76,7 @@ position: absolute;
   flex-direction: column;
   justify-content: space-around;
   width: 2rem;
-  height: 2rem;
+  height: 3rem;
   background: transparent;
   border: none;
   cursor: pointer;
@@ -75,9 +84,24 @@ position: absolute;
   z-index: 10;
   }
 
+.container:hover{
+    animation: rotate-center  .5s ease-out ;
+}
+  
+
+@keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
   
   .divBurger {
-    width: 2rem;
+    width: 3rem;
     height: 0.25rem;
     background-color: white;
     border-radius: 10px;

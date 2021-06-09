@@ -6,7 +6,7 @@
 *::before{
     margin:0;
     padding:0;
-   box-sizing: inherit;
+   box-sizing: content-box;
     
 }
 
@@ -26,14 +26,22 @@ body{
   background-size: cover;
   font-weight: 300;
   box-sizing: border-box; 
+  background-repeat: no-repeat;
+
   
 }
 
 @media only screen and (max-width:768px) {
 
   body{
- 
+    
     background-image: url(../images/mobile.png);
+    background-size: cover;
+    height: 80vh;
+  
+   
+    
+    
   }
   
 }

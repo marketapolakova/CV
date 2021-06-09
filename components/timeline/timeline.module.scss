@@ -1,33 +1,69 @@
 
 .time{
-    margin-top: 1rem;
+    margin-top: 2vh;
 }
 .circle{
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: white;
-    margin-left: 1rem;
-    border-radius: 10rem;
+    margin-left: 1.2rem;
+    border-radius: 100%;
     
 }
 .line{
-    height: 15rem;
+    height: 20vh;
     width: .3rem;
     background-color: white;
     margin-left: 2.3rem;
  
 }
 .line2{
-    height: 8rem;
+    height: 7vh;
     width: .3rem;
     background-color: white;
     margin-left: 2.3rem;
 }
 .little{
-    height: 1rem;
+    height: 2vh;
     width: .3rem;
     background-color: white;
     margin-left: 2.3rem;
 }
+
+@media only screen and (max-width:768px) {
+   
+.time{
+    margin-top: 1.8rem;
+}
+.circle{
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    margin-left: 1.6rem;
+    border-radius: 10rem;
+    
+}
+.line{
+    height: 10rem;
+    width: .2rem;
+    background-color: white;
+    margin-left: 2.3rem;
+ 
+}
+.line2{
+    height: 4rem;
+    width: .2rem;
+    background-color: white;
+    margin-left: 2.3rem;
+}
+.little{
+    height: 1.5rem;
+    width: .2rem;
+    background-color: white;
+    margin-left: 2.3rem;
+}
+        
+      }
+    
 
 
