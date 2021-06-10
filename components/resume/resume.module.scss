@@ -6,7 +6,7 @@ position: absolute;
 top: 8rem;
 left: 5%;
 transform: translate(-8rem -5% );
-padding: 0 5rem;
+
 height: 70vh;
 width: 74vw;
 background-color: black;
@@ -42,19 +42,22 @@ animation: slide-in-left .5s ease-in;
     color: white;
     display: grid;
     grid-template-columns: auto auto auto;
+
 }
 
 
 .containerContent{
-    margin-top: 2rem;
+    margin: 2rem 0 0 2.5rem;
+
     display: grid;
-grid-template-columns: auto auto;
+grid-template-columns: 3vw 20vw;
 grid-template-rows: 22.5vh auto;
+
  }
 .h2{
     font-size: 4vh;
     font-weight: 400;
-    margin-left: 1rem;
+    margin: 0 0 0 2.5rem;
 
   
 }

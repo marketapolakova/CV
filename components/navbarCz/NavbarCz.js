@@ -1,35 +1,34 @@
 import React from "react";
 import ActiveLink from "../active-link/ActiveLink"
-import BurgerMenu from "../burger-menu/BurgerMenu"
-
+import BurgerMenuCz from "../burgerMenuCz/BurgerMenuCz"
 import S from "./navbar.module.scss";
 
-function Navbar() {
+function NavbarCz() {
   return (
     <div>
-      <BurgerMenu/>
+      <BurgerMenuCz/>
       <div className={S.div}>
       <ul>
-        <ActiveLink activeClassName={S.active} href= "/">
+        <ActiveLink activeClassName={S.active} href="/cz/home">
         <li className={S.li}>
           
-            <a>Home</a>
+            <a>Domů</a>
          
         </li>
          </ActiveLink>
 
 
-        <ActiveLink activeClassName={S.active} href="/about">
+        <ActiveLink activeClassName={S.active} href="/cz/about">
         <li className={S.li}>
           
-            <a>About me</a>
+            <a>O mně</a>
           
         </li>
 </ActiveLink>
 
 
         
-        <ActiveLink activeClassName={S.active} href="/resume">
+        <ActiveLink activeClassName={S.active} href="/cz/resume">
         <li className={S.li}>
           
             <a>Resume</a>
@@ -38,25 +37,25 @@ function Navbar() {
 </ActiveLink>
 
 
-       <ActiveLink activeClassName={S.active} href="/skills">
+       <ActiveLink activeClassName={S.active} href="/cz/skills">
            <li className={S.li}>
           
-            <a>Skills</a>
+            <a>Dovednosti</a>
          
         </li>
          </ActiveLink>
 
-        <ActiveLink activeClassName={S.active} href="/portfolio">
+        <ActiveLink activeClassName={S.active} href="/cz/portfolio">
         <li className={S.li}>
           
             <a className={S.a}>Portfolio</a>
         </li>
 </ActiveLink>
 
-<ActiveLink activeClassName={S.active} href="/contact">
+<ActiveLink activeClassName={S.active} href="/cz/contact">
         <li className={S.li}>
           
-            <a>Contact</a>
+            <a>Kontakt</a>
           
         </li>
         </ActiveLink>
@@ -67,4 +66,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarCz;

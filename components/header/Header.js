@@ -1,13 +1,14 @@
 import React from 'react';
 import Navbar from "../navbar/Navbar"
+import NavbarCz from "../navbarCz/NavbarCz"
 import S from "./Header.module.scss"
 
-function Header() {
+function Header({language}) {
     return (
         <div className={S.div}>
             <h1 className={S.h1}>Markéta Poláková</h1>
-            <p className={S.p}>future software engineer student</p>
-            <Navbar/>
+            <p className={S.p}>{language==="cz"?"budoucí studentka softwarového vývoje":"future software engineer student"}</p>
+            {language==="cz"?<NavbarCz/>:<Navbar/>}
           
         </div>
     )

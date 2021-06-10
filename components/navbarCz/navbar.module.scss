@@ -1,0 +1,36 @@
+.div{
+float: right;
+background-color: black;
+color: white;
+width: 18vw;
+height: 100vh;
+}
+.li {
+
+    font: normal normal normal 2.5rem/4rem Josefin Sans;
+    color: #FFFFFF;
+    list-style: none;
+    text-align: center;
+    padding: 3.5vh 6%;
+    border-bottom: solid .1rem #707070;
+    cursor: pointer;
+    &:last-child{
+        border-bottom: 0;
+
+
+       
+    }
+}
+
+
+.active{
+    border-left: solid .3rem white;
+
+    
+}
+
+ @media only screen and (max-width:768px) {
+    .div{
+display: none;
+        }
+           }

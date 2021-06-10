@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from "../navbar/Navbar";
+import NavbarCz from "../navbarCz/NavbarCz"
 import Link from "next/link";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -7,14 +8,14 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailIcon from '@material-ui/icons/Mail';
 import S from "./contact.module.scss";
-function ContactMe() {
+function ContactMe({language}) {
 
     return (
         <div>
         <div className={S.div}>
-        <Navbar />
+        {language==="cz"?<NavbarCz/>:<Navbar/>}
         <div className={S.box}>
-        <h1 className={S.h1}>Contact</h1>
+        <h1 className={S.h1}>{language==="cz"?"Kontakt":"Contact"}</h1>
         <p className={S.p}><PhoneIcon style={{ fontSize: 25 }}/> +420 722 308 762</p>
         <p className={S.p}><MailIcon style={{ fontSize: 25 }}/> <a href="mailto:polakovamarketa@email.cz">polakovamarketa@email.cz</a></p>
        
