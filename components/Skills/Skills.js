@@ -1,14 +1,15 @@
 import React from 'react'
 import Navbar from "../navbar/Navbar";
+import NavbarCz from "../navbarCz/NavbarCz"
 import Progressbar from "../progressbar/Progressbar"
 import S from "./skills.module.scss";
-function Skils() {
+function Skils({language}) {
     return (
         <div>
         <div className={S.div}>
-        <Navbar />
+        {language==="cz"?<NavbarCz/>:<Navbar/>}
         <div className={S.box}>
-        <h1 className={S.h1}>Skills</h1>
+        <h1 className={S.h1}>{language==="cz"?"Dovednosti":"Skills"}</h1>
         <div className={S.container}>
         <div style={{textAlign: 'right', paddingRight: "3rem"}}>
         <h2 className={S.h2}>Frontend</h2>
@@ -30,9 +31,9 @@ function Skils() {
         <Progressbar s="Word" w="70"/>
         <Progressbar s="Excel" w="70"/>
         <Progressbar s="Powerpoint" w="70"/>
-        <h2 className={S.h2}>Other skills</h2>
-        <Progressbar s="English" w="70"/>
-        <Progressbar s="Typing with 10 fingers" w="80"/>
+        <h2 className={S.h2}>{language==="cz"?"Ostatní dovednosti":"Other skills"}</h2>
+        <Progressbar s={language==="cz"?"Anglický jazyk":"English"} w="70"/>
+        <Progressbar s={language==="cz"?"Psaní všemi deseti":"Typing with 10 fingers"} w="80"/>
         
       </div>
 
