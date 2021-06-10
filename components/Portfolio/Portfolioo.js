@@ -31,7 +31,7 @@ function Portfolioo({language}) {
              <div className={S.mobileCart}><p className={S.p}>{language==="cz"?"Webová stránka MTnetcode":"MTnetcode website"}</p> </div>
            </div>
         </div>
-        {/* <div className={S.mobileCart}><p className={S.p}>MTnetcode website</p> </div> */}
+        <div className={S.mobileCart}><p className={S.p}>{language==="cz"?"Webová stránka MTnetcode":"MTnetcode website"}</p> </div>
           </a>
 
           </Link>
