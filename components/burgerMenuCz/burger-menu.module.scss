@@ -13,7 +13,7 @@ display: none;
     background-color: black;
     color: white;
     width: 60%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     left: 40%;
     animation: slide-in-right .3s ease-in backwards;
@@ -64,6 +64,14 @@ display: none;
         
     }
     
+    .img{
+      background-image: url(../../images/english.png);
+      background-size: cover;
+      width: 4vw;
+      height: 3vh;
+      margin: 0 auto;
+  
+  }
 
 // burger
 .container{
@@ -84,19 +92,39 @@ position: absolute;
   z-index: 10;
   }
 
-.container:hover{
-    animation: rotate-center  .5s ease-out ;
+  .container:active{
+    animation: jello-diagonal-2  1s ease-out ;
 }
   
 
-@keyframes rotate-center {
+@keyframes jello-diagonal-2 {
     0% {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
+      -webkit-transform: skew(0deg 0deg);
+              transform: skew(0deg 0deg);
+    }
+    30% {
+      -webkit-transform: skew(-360deg -360deg);
+              transform: skew(-360deg -360deg);
+    }
+    40% {
+      -webkit-transform: skew(25deg, 55deg);
+              transform: skew(15deg, 15deg);
+    }
+    50% {
+      -webkit-transform: skew(-15deg, -15deg);
+              transform: skew(-15deg, -15deg);
+    }
+    65% {
+      -webkit-transform: skew(5deg, 5deg);
+              transform: skew(5deg, 5deg);
+    }
+    75% {
+      -webkit-transform: skew(-5deg, -5deg);
+              transform: skew(-5deg, -5deg);
     }
     100% {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg);
+      -webkit-transform: skew(0deg 0deg);
+              transform: skew(0deg 0deg);
     }
   }
   

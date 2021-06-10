@@ -1,5 +1,6 @@
 import React from "react";
 import ActiveLink from "../active-link/ActiveLink"
+import Link from "next/link";
 import BurgerMenu from "../burger-menu/BurgerMenu"
 
 import S from "./navbar.module.scss";
@@ -10,6 +11,13 @@ function Navbar() {
       <BurgerMenu/>
       <div className={S.div}>
       <ul>
+      <Link href= "/cz/home">
+        <li className={S.li}>
+          
+            <a><div className={S.img}></div></a>
+         
+        </li>
+         </Link>
         <ActiveLink activeClassName={S.active} href= "/">
         <li className={S.li}>
           

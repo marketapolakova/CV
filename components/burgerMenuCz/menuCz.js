@@ -1,5 +1,6 @@
 import React from "react";
 import ActiveLink from "../active-link/ActiveLink"
+import Link from "next/link";
 import S from "./burger-menu.module.scss";
 
 const MenuCz = () => {
@@ -7,6 +8,13 @@ const MenuCz = () => {
 
         <div className={S.div} >
       <ul>
+      <Link href= "/">
+        <li className={S.li}>
+          
+            <a><div className={S.img}></div></a>
+         
+        </li>
+         </Link>
         <ActiveLink activeClassName={S.active} href="/cz/home">
         <li className={S.li}>
           
