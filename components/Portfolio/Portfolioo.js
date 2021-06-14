@@ -3,6 +3,7 @@ import Navbar from "../navbar/Navbar";
 import NavbarCz from "../navbarCz/NavbarCz"
 import Link from "next/link";
 import S from "./portfolio.module.scss";
+import {isMobile} from 'react-device-detect'
 function Portfolioo({language}) {
     return (
         <div>
@@ -11,7 +12,7 @@ function Portfolioo({language}) {
         <div className={S.box}>
         <h1 className={S.h1}>Portfolio</h1>
         <div className={S.container}>
-        <Link href="https://xd.adobe.com/view/fa84eff8-2483-47dd-8457-28ef4870bc3d-afd7/?fullscreen&hints=off">
+        <Link href={isMobile ? "https://xd.adobe.com/view/a8abdfdf-5ad5-4f46-acbb-071326b80745-fdf8/?fullscreen&hints=off" : "https://xd.adobe.com/view/fa84eff8-2483-47dd-8457-28ef4870bc3d-afd7/?fullscreen&hints=off"}>
           <a target="_blank">
                        <div className={S.img}>
            <div className={S.hidden}>
