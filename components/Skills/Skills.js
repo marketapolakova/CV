@@ -26,7 +26,7 @@ function Skils({language}) {
       <div style={{textAlign: 'right', paddingRight: "3rem"}}>
       <h2 className={S.h2}>UI</h2>
         <Progressbar s="Adobe XD" w="90"/>
-        <Progressbar s="HTML" w="100"/>
+     
         <h2 className={S.h2}>Microsoft office</h2>
         <Progressbar s="Word" w="70"/>
         <Progressbar s="Excel" w="70"/>
