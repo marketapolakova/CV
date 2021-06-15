@@ -71,7 +71,7 @@ function Resumee({language}) {
                 
                 <p className={S.p}>
                 {language==="cz"?"Národní památkový ústav":"National Heritage Institute"} <br />
-                {language==="cz"?"Sezonní průvodce na zámku Žleby":"Seasonal guide of Castle Žleby"} <br />
+                {language==="cz"?"Sezónní průvodce na zámku Žleby":"Seasonal guide of Castle Žleby"} <br />
                 {language==="cz"?"květen 2017 - teď":"May 2017 - Now"}
                 </p>
 
