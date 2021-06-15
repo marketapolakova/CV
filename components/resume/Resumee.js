@@ -33,7 +33,7 @@ function Resumee({language}) {
                 <p className={S.p}>
                 {language==="cz"?"Vysoká škola obchodní":"University college of business"}
                    <br />
-                   {language==="cz"?"Obor:Cestoní ruch":"tudy program: Tourism management"}S <br />
+                   {language==="cz"?"Obor:Cestoní ruch":"tudy program: Tourism management"} <br />
                    {language==="cz"?"září 2019 - teď":"September 2019 - Now"}
                 </p>
               </div>
