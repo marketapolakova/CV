@@ -1,5 +1,6 @@
 import Header from "../components/header/Header"
 import Head from 'next/head'
+import Title from "../components/title/title"
 
 
 
@@ -8,8 +9,8 @@ export default function Home() {
     <div>
         <Head>
             <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-          <title>Markéta Poláková</title>
         </Head>
+        <Title/>
       <Header/>
     </div>
   )
