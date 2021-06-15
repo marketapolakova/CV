@@ -8,6 +8,7 @@ export default function Home() {
     <div>
         <Head>
             <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+          <title>Markéta Poláková</title>
         </Head>
       <Header/>
     </div>
