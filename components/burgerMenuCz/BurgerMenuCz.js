@@ -3,12 +3,12 @@ import BurgerCz from "./burgerCz"
 import MenuCz from "./menuCz"
 
 function BurgerMenuCz() {
- const [otevrit, setOtevrit] = useState(false)
+ const [open, setOpen] = useState(false)
     return (
       <div>
         <div style={{overflow: 'hidden'}}>
-        <BurgerCz otevrit={otevrit} setOtevrit={setOtevrit} />
-        { otevrit && <MenuCz /> }
+        <BurgerCz open={open} setOpen={setOpen} />
+        { open && <MenuCz /> }
         </div>
 
 
