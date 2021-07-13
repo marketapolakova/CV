@@ -81,7 +81,7 @@ function Resumee({language}) {
                 UOL účetnictví <br />
                 {language==="cz"?"Asistentka účetní":"Assistant of accountant"}
                   <br />
-                  {language==="cz"?"Říjen 2021 - teď":"October 2021 - Now"}
+                  {language==="cz"?"Říjen 2020 - teď":"October 2020 - Now"}
                 </p>
               </div>
             </div>
