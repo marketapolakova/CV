@@ -7,7 +7,7 @@ function Header({language}) {
     return (
         <div className={S.div}>
             <h1 className={S.h1}>Markéta Poláková</h1>
-            <p className={S.p}>{language==="cz"?"budoucí studentka softwarového vývoje":"future software engineer student"}</p>
+            <p className={S.p}>{language==="cz"?"studentka softwarového vývoje":"software engineer student"}</p>
             {language==="cz"?<NavbarCz/>:<Navbar/>}
           
         </div>

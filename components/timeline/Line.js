@@ -8,6 +8,8 @@ function Line() {
             <div className={S.circle}></div>
             <div className={S.line}></div> 
                <div className={S.circle}></div>
+            <div className={S.line}></div> 
+            <div className={S.circle}></div>
             <div className={S.line2}></div> 
             </div>
             

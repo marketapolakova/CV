@@ -7,7 +7,7 @@ top: 8rem;
 left: 5%;
 transform: translate(-8rem -5% );
 
-height: 70vh;
+height: 85vh;
 width: 74vw;
 background-color: black;
 color: white;
@@ -47,11 +47,11 @@ animation: slide-in-left .5s ease-in;
 
 
 .containerContent{
-    margin: 2rem 0 0 2.5rem;
+    margin: 1.5rem 0 0 2.5rem;
 
     display: grid;
 grid-template-columns: 3vw 20vw;
-grid-template-rows: 22.5vh auto;
+grid-template-rows: 20vh 20vh;
 
  }
 .h2{
@@ -63,10 +63,10 @@ grid-template-rows: 22.5vh auto;
 }
 .p{
     font-size: 2.2vh;
-    margin: 1rem;
+   
 
     line-height: 3vh;
-    margin-top: 2rem;
+    margin: 2.5rem 1rem 1rem 1rem ;
     
 }
 
@@ -110,7 +110,7 @@ grid-template-rows: 22.5vh auto;
         margin-top: 2rem;
         display: grid;
     grid-template-columns: 3rem auto;
-    grid-template-rows: 11.5rem auto;
+    grid-template-rows: 11.5rem 11.5rem;
     }
     
     .h2{

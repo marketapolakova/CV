@@ -30,12 +30,24 @@ function Resumee({language}) {
                    {language==="cz"?"Zakončeno maturitou":"Maturita certification (SAT)"}
                 </p>
                 <div></div>
-                <p className={S.p}>
+                <div>
+                  <p className={S.p}>
                 {language==="cz"?"Vysoká škola obchodní":"University college of business"}
                    <br />
-                   {language==="cz"?"Obor:Cestoní ruch":"tudy program: Tourism management"} <br />
-                   {language==="cz"?"září 2019 - teď":"September 2019 - Now"}
+                   {language==="cz"?"Obor:Cestoní ruch":"Study program: Tourism management"} <br />
+                   {language==="cz"?"září 2019 - říjen 2021":"September 2019 - August 2021"} <br />
                 </p>
+                </div>
+                <div></div>
+                <div>
+                <p className={S.p}>
+             
+                {language==="cz"?"Unicorn University":"Unicorn University"}
+                   <br />
+                   {language==="cz"?"Obor:Softwarový vývoj":"Study program: Software development"} <br />
+                   {language==="cz"?"září 2021 - teď":"September 2021 - Now"}
+                   </p>
+                   </div>
               </div>
             </div>
             <div>
@@ -81,8 +93,19 @@ function Resumee({language}) {
                 UOL účetnictví <br />
                 {language==="cz"?"Asistentka účetní":"Assistant of accountant"}
                   <br />
-                  {language==="cz"?"Říjen 2020 - teď":"October 2020 - Now"}
+                  {language==="cz"?"říjen 2020 - červenec 2021":"October 2020 - July 2021"}
                 </p>
+
+                <div></div>
+
+                <p className={S.p}>
+              
+                ČSOB <br />
+                {language==="cz"?"Správce webových stránek elektronického bankovnictví":"Web content management of electronic banking"}
+                  <br />
+                  {language==="cz"?"srpen 2021 - teď":"August 2021 - Now"}
+                </p>
+                
               </div>
             </div>
           </div>
