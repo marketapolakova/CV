@@ -12,6 +12,33 @@ background-color: black;
 color: white;
 animation: slide-in-left .5s ease-in;
 }
+  
+
+.arrow_forward{
+    position: absolute;
+    top: 59%;
+    left: 91%;
+    transform: translateY(-50%);
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+}
+.arrow_backward:hover, .arrow_forward:hover{
+font-size: 3rem;
+}
+ 
+
+.arrow_backward{    
+    position: absolute;
+    top: 55%;
+    left: 4%;
+    transform: translateY(-50%);
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+}
 
 
 
@@ -30,29 +57,28 @@ animation: slide-in-left .5s ease-in;
   }
 
 
+
 //content
 .h1{
     font-size: 7vh;
     text-align: center;
-    margin: 5%;
+    margin: 5% 0 1% 0;
     font-weight: 400;
 
 }
-.img{
-    margin-left: 20%;
-    background-image: url(../../images/Homepage-dogatas.jpg);
-   height: 35vh;
-   width: 30vw;
-   background-size: cover;
- transition: .5s ease;
- display: inline-block;
- cursor: pointer;
+.h2{
+    font-size: 3vh;
+    text-align: center;
+    margin: 0 0 2% 0;
+    font-weight: 400;
+
 }
 
+
  .hidden{
-    height: 6%;
+    height: 35vh;
     width: 30vw;
-    padding: 30% 0;
+    // padding: 20% 0;
     opacity: 0;
  }
  .hidden:hover{
@@ -64,6 +90,8 @@ animation: slide-in-left .5s ease-in;
     font-size: 3vh;
     text-align: center;
     font-weight: 500;
+    position: relative;
+    top: 50%;
    
     
     
@@ -74,19 +102,33 @@ animation: slide-in-left .5s ease-in;
 
 .container{
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 41% 41%;
 }
-.img2{
-    margin: 0 5rem ;
-   
+
+.img_dogatas{
+    background-image: url(../../images/Homepage-dogatas.jpg);
+}
+.img_mtnet{
     background-image: url(../../images/mtnetcod.jpg);
+}
+.img_cv{
+    background-image: url(../../images/cv-tom-prototype.png);
+}
+.img_coffe{
+    background-image: url(../../images/coffe_without_c.png);
+}
+.img_travel{
+    background-image: url(../../images/travel_agency.png);
+}
+.img_cv, .img_mtnet, .img_dogatas, .img_coffe, .img_travel{
+    margin: 0 0 0 8rem;
+   
     height: 35vh;
     width: 30vw;
    background-size: cover;
  transition: .5s ease;
  display: inline-block;
  cursor: pointer;
-
 }
 .mobileCart{
     display: none;
@@ -108,9 +150,7 @@ animation: slide-in-left .5s ease-in;
 
     
     }
-    .img{
-        background-image: url(../../images/Homepage-dogatas-mobile.png);
-    }
+
     
     // content
     .h1{
@@ -122,18 +162,8 @@ animation: slide-in-left .5s ease-in;
    
     }
 
-
-    .img{
-        
-       height: 40vh;
-       width: 95vw;
-     display: block;
-     margin-left:1rem ;
-     border: solid .5rem rgb(252, 241, 241);
-     
-    }
     
-     .hidden{
+ .hidden{
 display: none;
 
      }
@@ -142,18 +172,24 @@ display: none;
         display: contents;
 
     }
-    .img2{
-        
-       
+    .img_dogatas{
+        background-image: url(../../images/Homepage-dogatas-mobile.png);
+    }
+    .img_mtnet{
         background-image: url(../../images/mtnetcode-mobile.png);
+    }
+    .img_coffe{
+        background-image: url(../../images/coffe_without_c_phone.png);
+    }
+    .img_travel{
+        background-image: url(../../images/travel_agency_phone.png);
+    }
+    .img_mtnet, .img_cv, .img_dogatas, .img_coffe, .img_travel{
        height: 40vh;
        width: 95vw;
-       
-    
      display: block;
+        margin: 1rem 1rem 0 1rem;
 
-     margin-left: 1rem;
-     margin-top: 1rem;
      border: solid .5rem rgb(252, 241, 241);
     
     }
@@ -161,7 +197,7 @@ display: none;
     .mobileCart{
         display: block;
         background-color: rgb(252, 241, 241);
-        width: 95vw;
+        width: 96.7vw;
         margin-left: 1rem;
         
     }

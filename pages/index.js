@@ -26,9 +26,9 @@ export default function Home() {
         <Title/>
       <Header/>
 
-<CookieConsent location="bottom" cookieName="myAwesomeCookieName3" expires={999} overlay>
+{/* <CookieConsent location="bottom" cookieName="myAwesomeCookieName3" expires={999} overlay>
   This website uses cookies to enhance the user experience.
-</CookieConsent>
+</CookieConsent> */}
     </div>
   )
 }

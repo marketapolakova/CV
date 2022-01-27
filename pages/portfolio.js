@@ -1,4 +1,5 @@
 import Portfolioo from "../components/Portfolio/Portfolioo"
+
 import Title from "../components/title/title"
 
 export default function Resume() {
@@ -6,6 +7,7 @@ export default function Resume() {
       <div>
         <Title/>
         <Portfolioo/>
+
       </div>
     )
   }
