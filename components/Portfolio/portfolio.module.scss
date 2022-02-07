@@ -120,7 +120,10 @@ font-size: 3rem;
 .img_travel{
     background-image: url(../../images/travel_agency.png);
 }
-.img_cv, .img_mtnet, .img_dogatas, .img_coffe, .img_travel{
+.img_rock_scissors_paper{
+    background-image: url(../../images/rock-scissors-paper.png);
+}
+.img_cv, .img_mtnet, .img_rock_scissors_paper, .img_dogatas, .img_coffe, .img_travel{
     margin: 0 0 0 8rem;
    
     height: 35vh;
@@ -184,7 +187,10 @@ display: none;
     .img_travel{
         background-image: url(../../images/travel_agency_phone.png);
     }
-    .img_mtnet, .img_cv, .img_dogatas, .img_coffe, .img_travel{
+    .img_rock_scissors_paper{
+        background-image: url(../../images/rock-scissors-paper-mobile.jpg);
+    }
+    .img_mtnet, .img_cv,.img_rock_scissors_paper, .img_dogatas, .img_coffe, .img_travel{
        height: 40vh;
        width: 95vw;
      display: block;

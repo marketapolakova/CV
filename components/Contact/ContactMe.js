@@ -16,7 +16,7 @@ function ContactMe({language}) {
         {language==="cz"?<NavbarCz/>:<Navbar/>}
         <div className={S.box}>
         <h1 className={S.h1}>{language==="cz"?"Kontakt":"Contact"}</h1>
-        <p className={S.p}><PhoneIcon style={{ fontSize: 25 }}/> +420 722 308 762</p>
+        <a href="tel:+420722308762"> <p className={S.p}><PhoneIcon style={{ fontSize: 25 }}/> +420 722 308 762</p></a>
         <p className={S.p}><MailIcon style={{ fontSize: 25 }}/> <a href="mailto:polakovamarketa@email.cz">polakovamarketa@email.cz</a></p>
        
         <p className={S.p}> <Link href="https://www.linkedin.com/in/mark%C3%A9ta-pol%C3%A1kov%C3%A1-aa19451b5/">

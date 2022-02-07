@@ -13,10 +13,7 @@ function AboutMe({language}) {
         <div className={S.container}>
           <div className={S.img}></div>
           <p className={S.item}>
-          {language==="cz"?"Vystudovala jsem cestovní ruch, ale v období pandemie jsem našla zálibu v IT odvětví. Z tohoto důvodu, jsem se rozhodla změnit zaměření a od září začínám své studium oboru Softwarového vývoje na vysoké škole. Do této doby jsem absolvovala kurz se zaměřením na kompletní webový vývoj. Také se zajímám o UI design a dokončila jsem kurz zaměřený na UI/UX v Adobe XD.":" I was studying travel tourism but though pandemic I found out my passion for IT industry. In September I am going to start my journey as a software engineer at university. Until now I have completed a full stack web development course. Also I am interested in UI design. I have finished and obtained a certificate related to UI/UX in Adobe XD."}
-
-
-           
+          {language==="cz"?"Vystudovala jsem cestovní ruch, ale v období pandemie jsem našla zálibu v IT odvětví. Z tohoto důvodu, jsem se rozhodla změnit zaměření a zahájit studium oboru softwarový vývoj na vysoké škole. Do této doby jsem absolvovala kurz se zaměřením na kompletní webový vývoj. Také se zajímám o UI design a dokončila jsem kurz zaměřený na UI/UX v Adobe XD.":" I was studying travel tourism but though pandemic I found out my passion for IT industry so I decided to start studying software development at Unicorn University. Until now I have completed a full stack web development course. Also I am interested in UI design. I have finished and obtained a certificate related to UI/UX in Adobe XD."}           
           </p>
         </div>
         </div>

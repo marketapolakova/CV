@@ -29,7 +29,7 @@ function Portfolioo({language}) {
           </Link>
  {/* sipka od carouselu */}
           <Link
-            href={language==="cz"? "/cz/prototype":"/prototype"} 
+            href={language==="cz"? "/cz/programming-challenges":"/programming-challenges"} 
 
                 
             

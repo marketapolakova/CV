@@ -52,7 +52,7 @@ function Portfolioo2({language}) {
             </a>
           </Link>
           <Link
-            href={language==="cz"? "/cz/portfolio":"/portfolio"} 
+            href={language==="cz"? "/cz/programming-challenges":"/programming-challenges"} 
           >
             <a>
               <div>
