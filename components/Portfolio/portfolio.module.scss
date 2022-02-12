@@ -5,18 +5,20 @@
 position: absolute;
 top: 8rem;
 left: 5%;
+overflow: scroll;
 
 height: 70vh;
 width: 74vw;
 background-color: black;
 color: white;
 animation: slide-in-left .5s ease-in;
+
 }
   
 
 .arrow_forward{
     position: absolute;
-    top: 59%;
+    top: 55%;
     left: 91%;
     transform: translateY(-50%);
     font-size: 2.5rem;
@@ -107,6 +109,7 @@ font-size: 3rem;
 
 .img_dogatas{
     background-image: url(../../images/Homepage-dogatas.jpg);
+
 }
 .img_mtnet{
     background-image: url(../../images/mtnetcod.jpg);
@@ -116,19 +119,25 @@ font-size: 3rem;
 }
 .img_coffe{
     background-image: url(../../images/coffe_without_c.png);
+    background-position: center;
 }
 .img_travel{
     background-image: url(../../images/travel_agency.png);
 }
 .img_rock_scissors_paper{
     background-image: url(../../images/rock-scissors-paper.png);
+    background-position: center;
 }
-.img_cv, .img_mtnet, .img_rock_scissors_paper, .img_dogatas, .img_coffe, .img_travel{
-    margin: 0 0 0 8rem;
+.img_dogatas_adm{
+    background-image: url(../../images/dogatas_adm.png);
+}
+.img_cv, .img_mtnet, .img_rock_scissors_paper, .img_dogatas, .img_coffe, .img_travel, .img_dogatas_adm {
+    margin: 0 0 1rem 8rem;
    
     height: 35vh;
     width: 30vw;
    background-size: cover;
+
  transition: .5s ease;
  display: inline-block;
  cursor: pointer;
@@ -183,6 +192,7 @@ display: none;
     }
     .img_coffe{
         background-image: url(../../images/coffe_without_c_phone.png);
+        background-position: top;
     }
     .img_travel{
         background-image: url(../../images/travel_agency_phone.png);
@@ -190,7 +200,10 @@ display: none;
     .img_rock_scissors_paper{
         background-image: url(../../images/rock-scissors-paper-mobile.jpg);
     }
-    .img_mtnet, .img_cv,.img_rock_scissors_paper, .img_dogatas, .img_coffe, .img_travel{
+    .img_dogatas_adm {
+        background-image: url(../../images/dogatas_adm_mobile.png);
+    }
+    .img_mtnet, .img_cv,.img_rock_scissors_paper, .img_dogatas, .img_coffe, .img_travel, .img_dogatas_adm {
        height: 40vh;
        width: 95vw;
      display: block;
@@ -210,5 +223,33 @@ display: none;
     .p{
        padding: 1rem 0;
         font-size: 1.5rem;
+    }
+
+    .arrow_forward{
+        left: 85%;
+        font-size: 2rem;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.548);
+         height: 2rem;
+        width: 2rem;
+        text-align: center;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.205);
+    }
+    .arrow_backward:hover, .arrow_forward:hover{
+    height: 3.5rem;
+    width: 3.5rem;
+    }
+     
+    
+    .arrow_backward{    
+        left: 4%;
+        font-size: 2rem;
+   
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.548);
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.205);
+        height: 2rem;
+        width: 2rem;
+        text-align: center;
     }
       }

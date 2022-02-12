@@ -14,11 +14,22 @@ function Portfolioo2({language}) {
         <h2 className={S.h2}>{language==="cz"?"Prototyp":"Prototype"}</h2>
         <div className={S.container}>
       
-        <Link href={isMobile ? "https://xd.adobe.com/view/a8abdfdf-5ad5-4f46-acbb-071326b80745-fdf8/?fullscreen&hints=off" : "https://xd.adobe.com/view/fa84eff8-2483-47dd-8457-28ef4870bc3d-afd7/?fullscreen&hints=off"}>
+        <Link href={isMobile ? "https://xd.adobe.com/view/733304f7-15aa-41a1-bcfc-76269af18561-2660/?fullscreen" : "https://xd.adobe.com/view/07b209ff-d973-4000-b046-d0f46a227602-52e1/?fullscreen"}>
           <a target="_blank">
                        <div className={S.img_dogatas}>
            <div className={S.hidden}>
              <p className={S.p}>{language==="cz"?"Prototyp fiktivního útulku":"Prototype of fititious pet shelter"}</p>
+           </div>
+            </div>
+            <div className={S.mobileCart}><p className={S.p}>{language==="cz"?"Prototyp fiktivního útulku":"Prototype of fititious pet shelter"}</p> </div>
+          </a>
+
+          </Link>
+          <Link href={isMobile ? "https://xd.adobe.com/view/d5c9c8fb-bcd8-4dac-beb3-2462eaba5a17-809a/?fullscreen" : "https://xd.adobe.com/view/633523f0-953c-4fff-83d1-c400df508886-3666/?fullscreen"}>
+          <a target="_blank">
+                       <div className={S.img_dogatas_adm}>
+           <div className={S.hidden}>
+             <p className={S.p}>{language==="cz"?"Prototyp fiktivního útulku - administrace":"Prototype of fititious pet shelter - administration"}</p>
            </div>
             </div>
             <div className={S.mobileCart}><p className={S.p}>{language==="cz"?"Prototyp fiktivního útulku":"Prototype of fititious pet shelter"}</p> </div>

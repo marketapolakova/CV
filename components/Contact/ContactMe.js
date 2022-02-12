@@ -3,7 +3,7 @@ import Navbar from "../navbar/Navbar";
 import NavbarCz from "../navbarCz/NavbarCz"
 import Link from "next/link";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui//icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PhoneIcon from '@material-ui/icons/Phone';
 import MailIcon from '@material-ui/icons/Mail';
@@ -23,8 +23,8 @@ function ContactMe({language}) {
         <a target="_blank"> <LinkedInIcon style={{ fontSize: 25 }}/> Linkedin </a>
           </Link> </p>
 
-          <p className={S.p}><Link href="https://www.facebook.com/marketa.polakova.186">
-          <a target="_blank"><FacebookIcon style={{ fontSize: 25 }}/> Facebook </a> 
+          <p className={S.p}><Link href="https://twitter.com/MarketaPolakov">
+          <a target="_blank"><TwitterIcon  style={{ fontSize: 25 }}/> Twitter </a> 
           </Link> </p>
 
 

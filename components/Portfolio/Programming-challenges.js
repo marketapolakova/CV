@@ -16,10 +16,10 @@ function ProgrammingChallenges({language}) {
           <a target="_blank">
                        <div className={S.img_rock_scissors_paper}>
            <div className={S.hidden}>
-             <p className={S.p}>{language==="cz"?"Hra kámen nůžky papír":"Rock scissors paper game"}</p>
+             <p className={S.p}>{language==="cz"?"Hra kámen nůžky papír v JavaScriptu":"Rock scissors paper game in JavaScript"}</p>
            </div>
             </div>
-            <div className={S.mobileCart}><p className={S.p}>{language==="cz"?"Hra kámen nůžky papír":"Rock scissors paper game"}</p> </div>
+            <div className={S.mobileCart}><p className={S.p}>{language==="cz"?"Hra kámen nůžky papír v JavaScriptu":"Rock scissors paper game in JavaScript"}</p> </div>
           </a>
 
           </Link>
