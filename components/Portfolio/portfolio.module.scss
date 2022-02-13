@@ -131,7 +131,14 @@ font-size: 3rem;
 .img_dogatas_adm{
     background-image: url(../../images/dogatas_adm.png);
 }
-.img_cv, .img_mtnet, .img_rock_scissors_paper, .img_dogatas, .img_coffe, .img_travel, .img_dogatas_adm {
+.img_drink_water{
+    background-image: url(../../images/drink_water.png);
+    background-position: center;
+}
+.img_dog_blog{
+    background-image: url(../../images/dog_blog.png);
+}
+.img_cv, .img_mtnet, .img_rock_scissors_paper, .img_dogatas, .img_coffe, .img_travel, .img_dogatas_adm, .img_drink_water, .img_dog_blog {
     margin: 0 0 1rem 8rem;
    
     height: 35vh;

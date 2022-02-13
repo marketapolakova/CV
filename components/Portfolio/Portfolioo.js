@@ -27,6 +27,18 @@ function Portfolioo({language}) {
           </a>
 
           </Link>
+          <Link href="https://marketapolakova.github.io/dog-blog/">
+          <a target="_blank">
+         <div className={S.img_dog_blog}>
+           <div className={S.hidden}>
+             <p className={S.p}>{language==="cz"?"Fiktivní webová stránka":"Fictive website"}  </p>
+             <div className={S.mobileCart}><p className={S.p}>{language==="cz"?"Fiktivní webová stránka":"Fictive website"}</p> </div>
+           </div>
+        </div>
+        <div className={S.mobileCart}><p className={S.p}>{language==="cz"?"Fiktivní webová stránka":"Fictive website"}</p> </div>
+          </a>
+
+          </Link>
  {/* sipka od carouselu */}
           <Link
             href={language==="cz"? "/cz/programming-challenges":"/programming-challenges"} 

@@ -65,11 +65,23 @@ function Navbar() {
         <li className={S.li}>
           
             <a>Contact</a>
-          
+           
         </li>
         </ActiveLink>
+        <li className={S.li}>
+     <div className={S.footer}>
+     <p className={S.p}>Made in Next.js</p>
+     </div>
+      
+    
+      
+         
+      </li>
+        
       </ul>
+     
     </div>
+  
     </div>
     
   );

@@ -15,8 +15,8 @@ function Skils({language}) {
         <h2 className={S.h2}>Frontend</h2>
         <Progressbar s="HTML" w="70"/>
         <Progressbar s="CSS3" w="70"/>
-        <Progressbar s="JavaScript" w="45"/>
-        <Progressbar s="React" w="50"/>
+        <Progressbar s="JavaScript" w="55"/>
+        <Progressbar s="React" w="35"/>
 
       <h2 className={S.h2}>Backend</h2>
       <Progressbar s="Node.js" w="30"/>

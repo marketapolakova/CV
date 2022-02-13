@@ -36,6 +36,19 @@ height: 100vh;
     margin: 0 auto;
 
 }
+.footer{
+    position: fixed;
+ width: 18vw;
+bottom: 0;
+    cursor: auto;
+}
+.p{
+    font: normal normal normal 2.5rem/4rem Josefin Sans;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffffffbd;
+    
+}
 
  @media only screen and (max-width:768px) {
     .div{

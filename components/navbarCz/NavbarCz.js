@@ -67,6 +67,9 @@ function NavbarCz() {
           
         </li>
         </ActiveLink>
+        <div className={S.footer}>
+     <p className={S.p}>Vytvořeno v Next.js</p>
+     </div>
       </ul>
     </div>
     </div>

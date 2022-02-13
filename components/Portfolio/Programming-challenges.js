@@ -23,6 +23,17 @@ function ProgrammingChallenges({language}) {
           </a>
 
           </Link>
+          <Link href='https://marketapolakova.github.io/drink-water/'>
+          <a target="_blank">
+                       <div className={S.img_drink_water}>
+           <div className={S.hidden}>
+             <p className={S.p}>{language==="cz"?"Aplikace na sledování pitného režimu v JavaScriptu":"Water tracking app in JavaScript"}</p>
+           </div>
+            </div>
+            <div className={S.mobileCart}><p className={S.p}>{language==="cz"?"Aplikace na sledování pitného režimu v JavaScriptu":"Water tracking app in JavaScript"}</p> </div>
+          </a>
+
+          </Link>
 
  {/* sipka od carouselu */}
 

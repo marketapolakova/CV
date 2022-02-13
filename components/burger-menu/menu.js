@@ -66,10 +66,11 @@ const Menu = () => {
         </li>
         </ActiveLink>
       </ul>
-    </div>
-  
     
+    </div>
+
   );
+
 }
 
 export default Menu;
