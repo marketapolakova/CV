@@ -23,15 +23,17 @@ function Skils({ language }) {
               <h2 className={S.h2}>Backend</h2>
               <Progressbar s="Node.js" w="30" />
               <Progressbar s="Express.js" w="30" />
-              <h2 className={S.h2}>Wordpress</h2>
-              <Progressbar
-                s={language === "cz" ? "Tvroba stránek" : "Wordpress website"}
-                w="30"
-              />
+              <Progressbar s="Java" w="20" />
+              <h2 className={S.h2}>
+                {language === "cz" ? "CMS systémy" : "CMS systems"}{" "}
+              </h2>
+              <Progressbar s="Wordpress" w="30" />
+              <Progressbar s="Liferay" w="60" />
             </div>
             <div style={{ textAlign: "right", paddingRight: "3rem" }}>
               <h2 className={S.h2}>UI</h2>
               <Progressbar s="Adobe XD" w="90" />
+              <Progressbar s="Figma" w="40" />
 
               <h2 className={S.h2}>Microsoft office</h2>
               <Progressbar s="Word" w="70" />
